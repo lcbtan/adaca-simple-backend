@@ -1,5 +1,4 @@
 # Node.js Server Backend
-
 This is a simple Node.js server backend for a technical assessment test.
 
 ## Getting Started
@@ -25,12 +24,17 @@ Follow these steps to set up and run the project:
 
 3. Ensure the database is running and you can connect to it.
 
-4. Initialize the database:
+4. Copy the `.env.example` file and rename it to `.env`:
+  ```bash
+  cp .env.example .env
+  ```
+
+5. Initialize the database:
   ```bash
   npm run init-db
   ```
 
-5. Start the development server:
+6. Start the development server:
   ```bash
   npm run dev
   ```
